@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.MuiButton-root {
+  background-color: brown !important;
+  font-size: 4vw !important;
+  color: "#ffcb00" !important;
+  margin-bottom: 80px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.go-vegan {
+  font-size: 18vw;
+  line-height: 1;
+  color: brown;
+}
+.y-section {
+  height: 36vh;
+  background-color: #ffcb00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.img-section {
+  height: 68vh;
+  position: relative;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+@media (max-width: 990px) {
+  .MuiButton-root {
+    font-size: 6vw !important;
+  }
+  .go-vegan {
+    font-size: 20vw;
+  }
+  .y-section {
+    height: 30vh;
+  }
+  .img-section {
+    height: 76vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 500px) {
+  .MuiButton-root {
+    font-size: 10vw !important;
+    margin-bottom: 140px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .y-section {
+    height: 20vh;
+  }
+  .img-section {
+    height: 85vh;
+  }
+  .nav-item {
+    font-size: 3vw;
+    display: none;
   }
 }
