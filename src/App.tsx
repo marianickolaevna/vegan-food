@@ -5,7 +5,7 @@ import Hero from "./components/Hero.tsx";
 import Menu from "./components/Menu.tsx";
 import Meal from "./components/Meal.tsx";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
