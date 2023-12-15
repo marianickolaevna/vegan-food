@@ -10,7 +10,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <div>nvfdoifoieoi</div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/meal" element={<Meal />} />
+        </Routes>
+      </Router>
     </>
   );
 }
