@@ -61,6 +61,12 @@ body {
   transform: scale(1.02);
 }
 
+.meal-wrapper {
+  max-width: 70%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
 .meal-heading {
   position: relative;
   font-size: 4vw;
@@ -142,6 +148,10 @@ body {
   .meal-des {
     font-size: 3vw;
   }
+
+  .back {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 600px) {
@@ -150,6 +160,9 @@ body {
     max-width: 93%;
     gap: 1.7vw;
     padding-top: 30vw;
+  }
+  .meal-wrapper {
+    max-width: 80vw;
   }
   .heading {
     font-size: 10vw !important;
@@ -169,8 +182,9 @@ body {
   .nav-item {
     font-size: 2.8vw;
   }
-  .back {
-    visibility: hidden;
+  .meal-des {
+    font-size: 5vw;
+    line-height: 1.3;
   }
 }
 
