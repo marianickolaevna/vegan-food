@@ -7,6 +7,7 @@ const HeroButton = () => {
     <Link
       style={{
         zIndex: "3",
+        textDecoration: "none",
       }}
       to="/menu"
     >
