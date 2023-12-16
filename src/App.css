@@ -7,12 +7,13 @@
 }
 
 .go-vegan {
-  font-size: 18vw;
+  font-size: 16vw;
   line-height: 1;
   color: brown;
+  text-align: center;
 }
 .y-section {
-  height: 36vh;
+  height: 36vw;
   background-color: #ffcb00;
 }
 
@@ -60,13 +61,15 @@
     font-size: 6vw !important;
   }
   .go-vegan {
-    font-size: 20vw;
+    font-size: 19vw;
+    text-align: center;
   }
   .y-section {
-    height: 30vh;
+    height: 65vw;
+    width: 100%;
   }
   .img-section {
-    height: 76vh;
+    height: 50vh;
   }
   .menu-grid {
     grid-template-columns: 1fr 1fr;
@@ -99,17 +102,21 @@
 @media (max-width: 500px) {
   .MuiButton-root {
     font-size: 10vw !important;
-    margin-bottom: 140px !important;
+    margin-bottom: 100px !important;
   }
   .y-section {
-    height: 20vh;
+    height: 60vh;
   }
   .img-section {
-    height: 85vh;
+    height: 48vh;
   }
   .nav-item {
     font-size: 3vw;
     display: none;
+  }
+  .go-vegan {
+    font-size: 25vw;
+    text-align: center;
   }
 }
 

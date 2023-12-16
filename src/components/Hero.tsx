@@ -37,7 +37,7 @@ const Hero = () => {
         <HeroButton />
       </div>
       <div className="d-flex flex-column align-items-center justify-content-start y-section">
-        <div className="go-vegan">GO VEGAN</div>
+        <div className="go-vegan">GO VEGAN TODAY</div>
       </div>
     </div>
   );
