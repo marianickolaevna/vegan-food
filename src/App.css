@@ -1,3 +1,7 @@
+body {
+  transition: 2000ms;
+}
+
 .MuiButton-root {
   background-color: brown !important;
   font-size: 4vw !important;
@@ -12,6 +16,7 @@
   color: brown;
   text-align: center;
 }
+
 .y-section {
   height: 36vw;
   background-color: #ffcb00;
@@ -48,6 +53,43 @@
 .menu-card {
   background-color: #ffe6e5 !important;
   height: 470px !important;
+  transition: 800ms;
+  box-shadow: 5px 5px 5px rgba(224, 221, 221, 0.499);
+}
+
+.menu-card:hover {
+  transform: scale(1.02);
+}
+
+.meal-heading {
+  position: relative;
+  font-size: 4vw;
+  color: brown;
+  text-align: center;
+  max-width: 50vw;
+  padding-top: 0vw;
+  background-color: transparent;
+}
+.meal-image {
+  width: 50vw;
+  height: 500px;
+  object-fit: cover;
+  margin: 2vw;
+  border-radius: 10px;
+}
+
+.meal-des {
+  font-size: 2vw;
+}
+
+.back {
+  position: fixed;
+  top: 10%;
+  left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+  display: block;
 }
 
 @media (min-width: 1100px) {
@@ -61,15 +103,21 @@
     font-size: 6vw !important;
   }
   .go-vegan {
-    font-size: 19vw;
+    font-size: 18vw;
+    line-height: 0.8;
     text-align: center;
   }
+  .hero-wrapper {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
   .y-section {
-    height: 65vw;
-    width: 100%;
+    flex-grow: 1;
   }
   .img-section {
-    height: 50vh;
+    flex-grow: 1;
   }
   .menu-grid {
     grid-template-columns: 1fr 1fr;
@@ -80,6 +128,19 @@
   .heading {
     font-size: 7vw !important;
     padding-top: 11vw;
+  }
+  .meal-heading {
+    font-size: 4vw !important;
+    padding-top: 4vw;
+  }
+  .meal-image {
+    width: 70vw;
+    height: 500px;
+    object-fit: cover;
+    margin: 3vw;
+  }
+  .meal-des {
+    font-size: 3vw;
   }
 }
 
@@ -94,8 +155,22 @@
     font-size: 10vw !important;
     padding-top: 16vw;
   }
+  .meal-heading {
+    font-size: 6vw !important;
+    padding-top: 13vw;
+    max-width: 70vw;
+  }
+  .meal-image {
+    width: 80vw;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 5vw;
+  }
   .nav-item {
     font-size: 2.8vw;
+  }
+  .back {
+    visibility: hidden;
   }
 }
 
@@ -117,6 +192,7 @@
   .go-vegan {
     font-size: 25vw;
     text-align: center;
+    line-height: 1;
   }
 }
 
@@ -130,5 +206,16 @@
   .heading {
     font-size: 10vw !important;
     padding-top: 24vw;
+  }
+  .meal-heading {
+    font-size: 6vw !important;
+    padding-top: 12vw;
+    max-width: 70vw;
+  }
+  .meal-image {
+    width: 80vw;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 4vw;
   }
 }

@@ -8,17 +8,7 @@ const Meal = () => {
     <>
       <Nav color="white" item="brown" filter={() => {}} button />
       <Link to="/menu">
-        <div
-          className="d-flex flex-row align-items-center justify-content-center"
-          style={{
-            position: "fixed",
-            top: "20%",
-            left: "50px",
-            cursor: "pointer",
-            fontSize: "2vw",
-            color: "black",
-          }}
-        >
+        <div className="d-flex flex-row align-items-center justify-content-center back">
           <img
             style={{
               width: "24px",
@@ -34,24 +24,9 @@ const Meal = () => {
           className="d-flex flex-column align-items-center justify-content-between"
           style={{ maxWidth: "75%", marginTop: "10%", marginBottom: "15%" }}
         >
-          <div
-            className="h1"
-            style={{
-              fontSize: "4vw",
-              color: "brown",
-              textAlign: "center",
-              maxWidth: "50vw",
-            }}
-          >
-            {state.title}
-          </div>
-          <img
-            src={state.image}
-            alt="..."
-            style={{ width: "40vw", height: "500px", objectFit: "cover" }}
-            className="my-4"
-          />
-          <div style={{ fontSize: "2vw" }}>{state.description}</div>
+          <div className="h1 heading meal-heading">{state.title}</div>
+          <img src={state.image} alt="..." className="meal-image" />
+          <div className="meal-des">{state.description}</div>
         </div>
       </div>
     </>
