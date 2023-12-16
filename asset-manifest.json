@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vegan-food/static/css/main.75e4170a.css",
-    "main.js": "/vegan-food/static/js/main.cf10b9cb.js",
+    "main.css": "/vegan-food/static/css/main.7dff3516.css",
+    "main.js": "/vegan-food/static/js/main.6e6c84a7.js",
     "static/js/787.417322e4.chunk.js": "/vegan-food/static/js/787.417322e4.chunk.js",
     "static/media/img7.jpg": "/vegan-food/static/media/img7.489609d559390b245be9.jpg",
     "static/media/img2.jpg": "/vegan-food/static/media/img2.6905355c7914059d54ec.jpg",
@@ -13,12 +13,12 @@
     "static/media/img1.jpg": "/vegan-food/static/media/img1.633a79c230babddbb641.jpg",
     "static/media/logo.png": "/vegan-food/static/media/logo.bc2a747936bd94ffb531.png",
     "index.html": "/vegan-food/index.html",
-    "main.75e4170a.css.map": "/vegan-food/static/css/main.75e4170a.css.map",
-    "main.cf10b9cb.js.map": "/vegan-food/static/js/main.cf10b9cb.js.map",
+    "main.7dff3516.css.map": "/vegan-food/static/css/main.7dff3516.css.map",
+    "main.6e6c84a7.js.map": "/vegan-food/static/js/main.6e6c84a7.js.map",
     "787.417322e4.chunk.js.map": "/vegan-food/static/js/787.417322e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75e4170a.css",
-    "static/js/main.cf10b9cb.js"
+    "static/css/main.7dff3516.css",
+    "static/js/main.6e6c84a7.js"
   ]
 }
