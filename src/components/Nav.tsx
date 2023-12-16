@@ -18,7 +18,7 @@ const Nav = ({ color, item, filter, button }: Props) => {
       style={{
         position: "fixed",
         width: "100%",
-        zIndex: "2",
+        zIndex: "4",
         backgroundColor: color,
       }}
     >
