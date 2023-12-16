@@ -64,7 +64,7 @@ body {
 .meal-wrapper {
   max-width: 70%;
   margin-top: 10%;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .meal-heading {
@@ -171,7 +171,7 @@ body {
   .meal-heading {
     font-size: 6vw !important;
     padding-top: 13vw;
-    max-width: 70vw;
+    max-width: 80vw;
   }
   .meal-image {
     width: 80vw;

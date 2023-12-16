@@ -24,9 +24,14 @@ const Menu = () => {
         <Heading heading="Рецепты" />
         {items.length > 0 ? (
           <div className="menu-grid">
-            {items.map(({ image, title, description }) => {
+            {items.map(({ image, title, description }, index) => {
               return (
-                <Card image={image} title={title} description={description} />
+                <Card
+                  image={image}
+                  title={title}
+                  description={description}
+                  index={index}
+                />
               );
             })}
           </div>

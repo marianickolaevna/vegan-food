@@ -5,9 +5,10 @@ interface Props {
   image: string;
   title: string;
   description: string;
+  index: number;
 }
 
-const Card = ({ image, title, description }: Props) => {
+const Card = ({ image, title, description, index }: Props) => {
   const sliceText = (text: string) => {
     let n = 100;
     if (window.innerWidth < 990) {
@@ -21,7 +22,7 @@ const Card = ({ image, title, description }: Props) => {
     <>
       <Link
         to="/meal"
-        state={{ image, title, description }}
+        state={{ image, title, description, index }}
         style={{ textDecoration: "none" }}
       >
         <div className="card p-0 m-1 menu-card">

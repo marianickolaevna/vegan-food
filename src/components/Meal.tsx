@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Nav from "./Nav";
+import Recomendations from "./Recomendations";
 
 const Meal = () => {
   let { state } = useLocation();
@@ -26,6 +27,7 @@ const Meal = () => {
           <div className="meal-des">{state.description}</div>
         </div>
       </div>
+      <Recomendations index={state.index}></Recomendations>
     </>
   );
 };
