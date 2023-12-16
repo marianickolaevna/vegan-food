@@ -37,10 +37,10 @@ const Nav = ({ color, item, filter, button }: Props) => {
           </Link>
           <div className="d-flex flex-row align-items-center justify-content-end">
             <Link style={{ textDecoration: "none", color: item }} to="/">
-              <div className="nav-item mx-4 ">Главная</div>
+              <div className="nav-item mx-3 ">Главная</div>
             </Link>
             <Link style={{ textDecoration: "none", color: item }} to="/menu">
-              <div className="nav-item mx-4 nav-item">Рецепты</div>
+              <div className="nav-item mx-3 nav-item">Рецепты</div>
             </Link>
           </div>
         </div>

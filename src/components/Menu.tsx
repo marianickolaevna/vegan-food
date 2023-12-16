@@ -23,17 +23,7 @@ const Menu = () => {
       <div style={{ position: "relative" }}>
         <Heading heading="Рецепты" />
         {items.length > 0 ? (
-          <div
-            className="row"
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr 1fr",
-              gap: "16px",
-              maxWidth: "1100px",
-              margin: "auto",
-              paddingTop: "200px",
-            }}
-          >
+          <div className="menu-grid">
             {items.map(({ image, title, description }) => {
               return (
                 <Card image={image} title={title} description={description} />

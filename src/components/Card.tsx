@@ -8,6 +8,15 @@ interface Props {
 }
 
 const Card = ({ image, title, description }: Props) => {
+  const sliceText = (text: string) => {
+    let n = 100;
+    if (window.innerWidth < 990) {
+      n = 120;
+    } else if (window.innerWidth < 600) {
+      n = 200;
+    }
+    return text.slice(0, n) + "...";
+  };
   return (
     <>
       <Link
@@ -15,10 +24,7 @@ const Card = ({ image, title, description }: Props) => {
         state={{ image, title, description }}
         style={{ textDecoration: "none" }}
       >
-        <div
-          className="card p-0 m-1"
-          style={{ backgroundColor: "#ffe6e5", height: "470px" }}
-        >
+        <div className="card p-0 m-1 menu-card">
           <img
             src={image}
             className="card-img-top"
@@ -32,7 +38,7 @@ const Card = ({ image, title, description }: Props) => {
           />
           <div className="card-body d-flex flex-column align-items-around justify-content-around">
             <h5 className="card-title h3">{title}</h5>
-            <p className="card-text">{description.slice(0, 100) + "..."}</p>
+            <p className="card-text">{sliceText(description)}</p>
 
             <a
               href="#"
