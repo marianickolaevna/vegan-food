@@ -62,7 +62,7 @@ const Nav = ({ color, item, filter, button }: Props) => {
               className="form-control me-2"
               style={{ borderColor: "brown", color: "brown" }}
               type="search"
-              placeholder="Начни печатать"
+              placeholder="Что ищешь?"
               aria-label="Search"
               onChange={(e) => {
                 filter(e.target.value);
