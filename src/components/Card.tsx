@@ -40,7 +40,6 @@ const Card = ({ image, title, description, index }: Props) => {
           <div className="card-body d-flex flex-column align-items-around justify-content-around">
             <h5 className="card-title h3">{title}</h5>
             <p className="card-text">{sliceText(description)}</p>
-
             <a
               href="#"
               className="btn btn-primary"

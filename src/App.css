@@ -50,6 +50,7 @@ body {
   z-index: 1;
   background-color: white;
 }
+
 .menu-card {
   background-color: #ffe6e5 !important;
   height: 470px !important;
@@ -76,6 +77,7 @@ body {
   padding-top: 0vw;
   background-color: transparent;
 }
+
 .meal-image {
   width: 50vw;
   height: 500px;
