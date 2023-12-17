@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/vegan-food/static/css/main.7dff3516.css",
-    "main.js": "/vegan-food/static/js/main.6bd7bc06.js",
+    "main.js": "/vegan-food/static/js/main.80089cd0.js",
     "static/js/787.417322e4.chunk.js": "/vegan-food/static/js/787.417322e4.chunk.js",
-    "static/media/img7.jpg": "/vegan-food/static/media/img7.489609d559390b245be9.jpg",
-    "static/media/img2.jpg": "/vegan-food/static/media/img2.6905355c7914059d54ec.jpg",
-    "static/media/img3.jpg": "/vegan-food/static/media/img3.6ed7cebcc5ecf5692e1c.jpg",
-    "static/media/img6.jpg": "/vegan-food/static/media/img6.81f248bcfcbe767b7911.jpg",
-    "static/media/img5.jpg": "/vegan-food/static/media/img5.1190a3b8d3252100c797.jpg",
-    "static/media/img8.jpg": "/vegan-food/static/media/img8.9304804d40a574d7d773.jpg",
-    "static/media/img4.jpg": "/vegan-food/static/media/img4.149ddbe43c3d4143be4e.jpg",
-    "static/media/img1.jpg": "/vegan-food/static/media/img1.633a79c230babddbb641.jpg",
+    "static/media/braslet.jpeg": "/vegan-food/static/media/braslet.89b40e80ffa520b1cadb.jpeg",
+    "static/media/bowl.jpg": "/vegan-food/static/media/bowl.dac361232a197ce0407e.jpg",
+    "static/media/falafel.jpg": "/vegan-food/static/media/falafel.5b9450e4c2924bea887b.jpg",
+    "static/media/phali.jpg": "/vegan-food/static/media/phali.b60a1ab118cb8a11129b.jpg",
+    "static/media/pomelo.jpeg": "/vegan-food/static/media/pomelo.fe8ab70d394339ae511f.jpeg",
+    "static/media/napoleon.jpeg": "/vegan-food/static/media/napoleon.86747deada285f60bba1.jpeg",
+    "static/media/potato.jpeg": "/vegan-food/static/media/potato.ffbb41c5ea6b4776bf4a.jpeg",
+    "static/media/ice.jpeg": "/vegan-food/static/media/ice.033c7011bf44431d6726.jpeg",
     "static/media/logo.png": "/vegan-food/static/media/logo.bc2a747936bd94ffb531.png",
     "index.html": "/vegan-food/index.html",
     "main.7dff3516.css.map": "/vegan-food/static/css/main.7dff3516.css.map",
-    "main.6bd7bc06.js.map": "/vegan-food/static/js/main.6bd7bc06.js.map",
+    "main.80089cd0.js.map": "/vegan-food/static/js/main.80089cd0.js.map",
     "787.417322e4.chunk.js.map": "/vegan-food/static/js/787.417322e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dff3516.css",
-    "static/js/main.6bd7bc06.js"
+    "static/js/main.80089cd0.js"
   ]
 }
