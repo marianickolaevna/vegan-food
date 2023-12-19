@@ -5,10 +5,35 @@ interface Props {
   image: string;
   title: string;
   description: string;
+  ingridients?: string;
+  ingridients2?: string;
+  step1?: string;
+  step2?: string;
+  step3?: string;
+  step4?: string;
+  step5?: string;
+  step6?: string;
+  step7?: string;
+  step8?: string;
   index: number;
 }
 
-const Card = ({ image, title, description, index }: Props) => {
+const Card = ({
+  image,
+  title,
+  description,
+  ingridients,
+  ingridients2,
+  step1,
+  step2,
+  step3,
+  step4,
+  step5,
+  step6,
+  step7,
+  step8,
+  index,
+}: Props) => {
   const sliceText = (text: string) => {
     let n = 100;
     if (window.innerWidth < 990) {
@@ -22,7 +47,22 @@ const Card = ({ image, title, description, index }: Props) => {
     <>
       <Link
         to="/meal"
-        state={{ image, title, description, index }}
+        state={{
+          image,
+          title,
+          description,
+          ingridients,
+          ingridients2,
+          step1,
+          step2,
+          step3,
+          step4,
+          step5,
+          step6,
+          step7,
+          step8,
+          index,
+        }}
         style={{ textDecoration: "none" }}
       >
         <div className="card p-0 m-1 menu-card">

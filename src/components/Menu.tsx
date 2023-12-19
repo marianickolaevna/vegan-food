@@ -24,16 +24,45 @@ const Menu = () => {
         <Heading heading="Рецепты" />
         {items.length > 0 ? (
           <div className="menu-grid">
-            {items.map(({ image, title, description }, index) => {
-              return (
-                <Card
-                  image={image}
-                  title={title}
-                  description={description}
-                  index={index}
-                />
-              );
-            })}
+            {items.map(
+              (
+                {
+                  image,
+                  title,
+                  description,
+                  ingridients,
+                  ingridients2,
+                  step1,
+                  step2,
+                  step3,
+                  step4,
+                  step5,
+                  step6,
+                  step7,
+                  step8,
+                },
+                index
+              ) => {
+                return (
+                  <Card
+                    image={image}
+                    title={title}
+                    description={description}
+                    ingridients={ingridients}
+                    ingridients2={ingridients2}
+                    step1={step1}
+                    step2={step2}
+                    step3={step3}
+                    step4={step4}
+                    step5={step5}
+                    step6={step6}
+                    step7={step7}
+                    step8={step8}
+                    index={index}
+                  />
+                );
+              }
+            )}
           </div>
         ) : (
           <div
