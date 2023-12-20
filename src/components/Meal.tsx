@@ -28,13 +28,13 @@ const Meal = () => {
           <div className="meal-des">{state.description}</div>
           <div
             style={{
-              fontSize: "2.5vw",
               fontWeight: "500",
               margin: "1vw",
               marginTop: "4vw",
             }}
+            className="step"
           >
-            Ингридиенты
+            Ингридиенты:
           </div>
           <div className="meal-des">{state.ingridients}</div>
           <div className="meal-des">{state.ingridients2}</div>
