@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vegan-food/static/css/main.598a91f5.css",
-    "main.js": "/vegan-food/static/js/main.2f94847e.js",
+    "main.js": "/vegan-food/static/js/main.0055bfef.js",
     "static/js/787.417322e4.chunk.js": "/vegan-food/static/js/787.417322e4.chunk.js",
     "static/media/braslet.jpeg": "/vegan-food/static/media/braslet.89b40e80ffa520b1cadb.jpeg",
     "static/media/bowl.jpg": "/vegan-food/static/media/bowl.dac361232a197ce0407e.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.png": "/vegan-food/static/media/logo.bc2a747936bd94ffb531.png",
     "index.html": "/vegan-food/index.html",
     "main.598a91f5.css.map": "/vegan-food/static/css/main.598a91f5.css.map",
-    "main.2f94847e.js.map": "/vegan-food/static/js/main.2f94847e.js.map",
+    "main.0055bfef.js.map": "/vegan-food/static/js/main.0055bfef.js.map",
     "787.417322e4.chunk.js.map": "/vegan-food/static/js/787.417322e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.598a91f5.css",
-    "static/js/main.2f94847e.js"
+    "static/js/main.0055bfef.js"
   ]
 }
