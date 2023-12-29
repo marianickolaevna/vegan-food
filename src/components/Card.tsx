@@ -5,8 +5,10 @@ interface Props {
   image: string;
   title: string;
   description: string;
-  ingridients?: string;
-  ingridients2?: string;
+  ingridients?: Array<string>;
+  ingridients2?: Array<string>;
+  additional?: string;
+  steps: Array<string>;
   step1?: string;
   step2?: string;
   step3?: string;
@@ -24,14 +26,8 @@ const Card = ({
   description,
   ingridients,
   ingridients2,
-  step1,
-  step2,
-  step3,
-  step4,
-  step5,
-  step6,
-  step7,
-  step8,
+  additional,
+  steps,
   index,
 }: Props) => {
   const sliceText = (text: string) => {
@@ -53,14 +49,8 @@ const Card = ({
           description,
           ingridients,
           ingridients2,
-          step1,
-          step2,
-          step3,
-          step4,
-          step5,
-          step6,
-          step7,
-          step8,
+          additional,
+          steps,
           index,
         }}
         style={{ textDecoration: "none" }}

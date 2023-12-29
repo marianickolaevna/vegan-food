@@ -76,6 +76,8 @@ body {
   max-width: 50vw;
   padding-top: 0vw;
   background-color: transparent;
+
+  line-height: 1 !important;
 }
 
 .meal-image {

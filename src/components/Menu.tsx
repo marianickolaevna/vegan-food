@@ -32,14 +32,8 @@ const Menu = () => {
                   description,
                   ingridients,
                   ingridients2,
-                  step1,
-                  step2,
-                  step3,
-                  step4,
-                  step5,
-                  step6,
-                  step7,
-                  step8,
+                  additional,
+                  steps,
                 },
                 index
               ) => {
@@ -50,14 +44,8 @@ const Menu = () => {
                     description={description}
                     ingridients={ingridients}
                     ingridients2={ingridients2}
-                    step1={step1}
-                    step2={step2}
-                    step3={step3}
-                    step4={step4}
-                    step5={step5}
-                    step6={step6}
-                    step7={step7}
-                    step8={step8}
+                    additional={additional}
+                    steps={steps}
                     index={index}
                   />
                 );

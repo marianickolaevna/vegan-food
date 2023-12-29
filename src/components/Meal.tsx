@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Nav from "./Nav";
 import Recomendations from "./Recomendations";
@@ -6,6 +6,15 @@ import Step from "./Step";
 
 const Meal = () => {
   let { state } = useLocation();
+  const mapItems = (arr: Array<string>) => {
+    return arr.map((item: string) => {
+      return (
+        <li>
+          <div className="meal-des">{item}</div>
+        </li>
+      );
+    });
+  };
   return (
     <>
       <Nav color="white" item="brown" filter={() => {}} button />
@@ -36,15 +45,22 @@ const Meal = () => {
           >
             Ингридиенты:
           </div>
-          <div className="meal-des">{state.ingridients}</div>
-          <div className="meal-des">{state.ingridients2}</div>
-          {state.step1 && <Step text={state.step1} num={1} />}
-          {state.step2 && <Step text={state.step2} num={2} />}
-          {state.step3 && <Step text={state.step3} num={3} />}
-          {state.step4 && <Step text={state.step4} num={4} />}
-          {state.step5 && <Step text={state.step5} num={5} />}
-          {state.step6 && <Step text={state.step6} num={6} />}
-          {state.step7 && <Step text={state.step7} num={7} />}
+          <ul>{mapItems(state.ingridients)}</ul>
+          <div
+            style={{
+              fontWeight: "500",
+              margin: "1vw",
+              marginTop: "4vw",
+            }}
+            className="step"
+          >
+            {state.additional}
+          </div>
+          {state.ingridients2 && <ul>{mapItems(state.ingridients2)}</ul>}
+          {state.steps &&
+            state.steps.map((step: string, index: number) => {
+              return <Step text={step} num={index + 1} />;
+            })}
         </div>
       </div>
       <Recomendations index={state.index}></Recomendations>

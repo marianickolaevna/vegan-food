@@ -24,13 +24,8 @@ const Recomendations = ({ index }: Props) => {
             description: minus.description,
             ingridients2: minus.ingridients2,
             ingridients: minus.ingridients,
-            step1: minus.step1,
-            step2: minus.step2,
-            step3: minus.step3,
-            step4: minus.step4,
-            step5: minus.step5,
-            step6: minus.step6,
-            step7: minus.step7,
+            additional: minus.additional,
+            steps: minus.steps,
             index: index - 1,
           }}
           style={{ textDecoration: "none" }}
@@ -49,13 +44,8 @@ const Recomendations = ({ index }: Props) => {
             description: last.description,
             ingridients2: last.ingridients2,
             ingridients: last.ingridients,
-            step1: last.step1,
-            step2: last.step2,
-            step3: last.step3,
-            step4: last.step4,
-            step5: last.step5,
-            step6: last.step6,
-            step7: last.step7,
+            additional: last.additional,
+            steps: last.steps,
             index: meals.length - 1,
           }}
           style={{ textDecoration: "none" }}
@@ -75,13 +65,8 @@ const Recomendations = ({ index }: Props) => {
             description: plus.description,
             ingridients2: plus.ingridients2,
             ingridients: plus.ingridients,
-            step1: plus.step1,
-            step2: plus.step2,
-            step3: plus.step3,
-            step4: plus.step4,
-            step5: plus.step5,
-            step6: plus.step6,
-            step7: plus.step7,
+            additional: plus.additional,
+            steps: plus.steps,
             index: index + 1,
           }}
           style={{ textDecoration: "none" }}
@@ -101,13 +86,8 @@ const Recomendations = ({ index }: Props) => {
             description: first.description,
             ingridients2: first.ingridients2,
             ingridients: first.ingridients,
-            step1: first.step1,
-            step2: first.step2,
-            step3: first.step3,
-            step4: first.step4,
-            step5: first.step5,
-            step6: first.step6,
-            step7: first.step7,
+            additional: first.additional,
+            steps: first.steps,
             index: 0,
           }}
           style={{ textDecoration: "none" }}
